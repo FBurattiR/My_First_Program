@@ -1,6 +1,3 @@
-from ast import Pass
-
-
 menu = """ Bienvenido al conversor de monedas. Elija una opcion para comenzar
 1- Pesos Uruguayos a Dolares
 2- Dolares a Pesos Uruguayos
@@ -42,5 +39,5 @@ elif opcion == "4" :
     print("$" + str(pesos) + " " + "pesos")
 
 else :
-    opcion = input("Por favor, elija una opcion correcta: ")
+    input("Por favor, elija una opcion correcta")
 
